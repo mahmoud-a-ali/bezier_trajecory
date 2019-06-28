@@ -34,6 +34,9 @@ public:
 void init(std::vector<double> waypoints_pos, std::vector<double> waypoints_vel,
            std::vector<double> waypoints_acc, std::vector<double> waypoints_durations, double start_time_);
 
+void set_inflection_pts_vel_to_zero();
+
+
 void set_absolute_limits(double max_pos, double max_vel, double max_acc, double max_jrk);
 //void set_duration_(std::vector<double> durations);
 

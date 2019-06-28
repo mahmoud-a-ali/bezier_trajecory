@@ -354,8 +354,6 @@ void bezier_quintic_segment::compute_maxmin_times(){
 //        t_minacc_ = t_start_;
 //    std::cout<<"#calculate times " << t_start_ <<"  "<< t_end_<<"  "<< t_maxjrk_ << "  "<< t_maxacc_ <<" "<< t_minacc_<< std::endl;
 
-
-
 }
 
 
@@ -370,7 +368,7 @@ void bezier_quintic_segment::compute_maxmin_times(){
 
 bool bezier_quintic_segment::check_monotonic(){
 //    if( check_generic_transition() ){
-
+	//make sure of start/end state	
 //        std::cout<<" t_star, t_end " << t_start_ << ",  "<< t_end_<< std::endl;
 //        std::cout<<"###coef_: \n" <<"P0-P5: " <<coef_[0] <<",  " <<coef_[1]<<",  " <<coef_[2]<<",  " <<coef_[3]<<",  " <<coef_[4]<<",  " <<coef_[5]<<std::endl;
 

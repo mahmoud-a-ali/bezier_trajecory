@@ -28,7 +28,6 @@ public:
     void compute_coef();
     void sample_segment(double t, std::vector<double> & state);
 
-    void set_inflection_pts_vel_to_zero();
     bool check_jerk_limit();
     bool check_acc_limit();
     bool check_vel_limit();
